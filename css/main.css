@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+ul {
+    display: flex;
+    padding: 0;
+    border: 2px solid #333;
+}
+
+.dropdown ul {
+    flex-direction: column;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+    width: 25%;
+    height: 30px;
+    text-align: center;
+    border: 2px solid #333;
+}
+
+.dropdown ul li {
+    width: 100%;
+}
+
+.show {
+    display: block;
+}
+
+.condensed {
+    display: none;
+}
+
+/*********************API*********************/
+#details-wrapper{
+	background-color: #5c0c0d
+}
+
+h1{
+  padding-top: 1%;
+  font-size: 1.2rem;
+  color: #f8e3ce;
+  text-align: center
+}
+main{
+  padding-bottom: 1%;
+  font-size: 1rem;
+  color: #f8e3ce;
+  text-align: center
+}
+
+/*********************API*********************/
