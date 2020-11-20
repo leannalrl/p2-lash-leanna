@@ -69,9 +69,18 @@ main{
 /*********************Footer*********************/
 footer{
   background-color: #f8e3ce;
+  padding-top: 5%;
   padding: 1%;
   text-align: center;
   margin-top: 3%;
   color: #5c0c0d;
+}
+
+.col{
+	padding: 1%;
+}
+
+footer img{
+	width: 7%;
 }
 /*********************Footer*********************/
