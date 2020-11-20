@@ -65,3 +65,13 @@ main{
 }
 
 /*********************API*********************/
+
+/*********************Footer*********************/
+footer{
+  background-color: #f8e3ce;
+  padding: 1%;
+  text-align: center;
+  margin-top: 3%;
+  color: #5c0c0d;
+}
+/*********************Footer*********************/
