@@ -13,37 +13,9 @@ body {
 }
 
 
-ul {
-    display: flex;
-    padding: 0;
-    border: 2px solid #333;
-}
-
-.dropdown ul {
-    flex-direction: column;
-    background-color: #333;
-    color: white;
-    text-align: center;
-}
-
-ul li {
-    list-style-type: none;
-    width: 25%;
-    height: 30px;
-    text-align: center;
-    border: 2px solid #333;
-}
-
-.dropdown ul li {
-    width: 100%;
-}
-
-.show {
-    display: block;
-}
-
-.condensed {
-    display: none;
+ul.a {
+  list-style-type: circle;
+	padding: 1%;
 }
 
 /*********************API*********************/
