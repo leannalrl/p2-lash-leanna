@@ -12,6 +12,13 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+h1{
+  padding: 1%;
+  font-size: 1.2rem;
+  color: #f8e3ce;
+  text-align: center
+
+}
 
 ul.a {
   list-style-type: circle;
@@ -23,12 +30,12 @@ ul.a {
 	background-color: #5c0c0d
 }
 
-h1{
-  padding-top: 1%;
-  font-size: 1.2rem;
-  color: #f8e3ce;
-  text-align: center
+h3{
+	padding-top: 1%;
+	color: #f8e3ce;
+    text-align: center;
 }
+
 main{
   padding-bottom: 1%;
   font-size: 1rem;
