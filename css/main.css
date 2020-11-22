@@ -40,13 +40,9 @@ main{
 
 /************************ CONTACT ***************************/
 
-.hero-image {
-  background-image: url("images/horseback riding.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+#bannerimage {
+    width: 100%;
+    background-position: center;
 }
 
 h1 {
