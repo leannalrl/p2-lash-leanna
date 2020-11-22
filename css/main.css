@@ -60,8 +60,9 @@ a.nav-links{
 }
 
 #sidebar ul li{
+	font-family: 'Rokkitt';
 	list-style: none;
-	color: #fff;
+	color: #f8e3ce;
 	font-size: 20px;
 	padding: 20px 24px;
 }
@@ -284,6 +285,11 @@ h5{
 		font-size: .8rem;
 		text-align: center;
 	}
+
+#footerlogo{
+	width: 20%;
+}
+
 #social img{
 		width: 4%;
 	}
