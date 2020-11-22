@@ -1,6 +1,6 @@
 //API Code//
 
-var newsTextContainer = document.querySelectorAll('#details-wrapper h1, main');
+var newsTextContainer = document.querySelectorAll('#details-wrapper h3, main');
 
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
