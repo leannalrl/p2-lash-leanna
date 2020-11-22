@@ -9,7 +9,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'open-sans', sans-serif;
   text-align: center;
 }
 
@@ -17,7 +17,7 @@ h1{
   padding: 1%;
   font-size: 1.2rem;
   color: #f8e3ce;
-  text-align: center
+  text-align: center;
 
 }
 
@@ -148,7 +148,7 @@ h1 {
 }
 
 body {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'open sans', serif;
   color: #5c0c0d;
   background-color: #f8e3ce;
   margin: 0;
@@ -190,10 +190,10 @@ li {
 }
 
 .input-text, .interest{
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'open sans', serif;
   font-size: 0.94rem;
-  color: #000;
-  background-color: white;
+  color: #12090a;
+  background-color: #fffbfd;
   width: 33vw;
   min-width: 16.5em;
   margin: 0.5em 0;
@@ -202,10 +202,10 @@ li {
 }
 
 #message {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'open sans', serif;
   font-size: 0.94rem;
   background-color: white;
-  color: #000;
+  color: #12090a;
   border: 0.17em solid #5c0c0d;
   width: 33vw;
   min-width: 16.5em;
@@ -214,7 +214,7 @@ li {
 }
 
 ::placeholder {
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'open sans', sans-serif;
 }
 
 button {
