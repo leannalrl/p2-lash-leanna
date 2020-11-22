@@ -11,6 +11,30 @@
     <title>Contact Us</title>
   </head>
 
+	 <header>
+
+		 <nav>
+
+		<div id="sidebar">
+			<div class="toggle-btn" onclick="show()">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			</div>
+
+			<ul>
+				<li>Home</li>
+				<li>Event</li>
+				<li>About</li>
+				<li>Contact</li>
+			</ul>
+		</div>
+
+		 </nav>
+	 </header>
+
+
   <body>
 
 	  <img id="bannerimage" src="images/hbr.png" alt="horseback riding"/>
@@ -59,9 +83,7 @@
           <textarea rows="6" id="message" placeholder="Your Message" required></textarea>
         </li>
 
-        <li>
-          <button>Send Message</button>
-        </li>
+          <button onclick="setTimeout(myFunction, 100);">Send Message</button>
 
       </ul>
 
@@ -80,6 +102,8 @@
 			<a href="https://www.instagram.com/horsepowerforkids/" target="_blank"><img src="images/Facebook%20red.png" alt="instagram" title="instagram" /></a>
 		</div>
 	</footer>
+
+	  <script src="js/main.js"></script>
 
   </body>
 </html>
