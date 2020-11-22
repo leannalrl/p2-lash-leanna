@@ -105,6 +105,8 @@ main{
   position: relative;
   width: 100%;
   max-width: 400px;
+  align-items: center;
+  justify-content: center;
 }
 
 .container img {
@@ -252,6 +254,7 @@ button:active {
 	display: flex;
 	flex-wrap: wrap;
 	margin: auto;
+	justify-content: center;
 }
 
 .image-grid2{
