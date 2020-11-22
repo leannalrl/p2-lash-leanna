@@ -1,5 +1,4 @@
 //API Code//
-
 var newsTextContainer = document.querySelectorAll('#details-wrapper h3, main');
 
 var xmlhttp = new XMLHttpRequest();
@@ -21,3 +20,15 @@ xmlhttp.onreadystatechange = function() {
 };
 xmlhttp.open('GET', 'http://api.openweathermap.org/data/2.5/weather?q=33635,us&appid=6efff70fe1477748e31c17d1c504635f', true);
 xmlhttp.send();
+
+
+//Alert on Click//
+function myFunction() {
+  alert('We will contact you shortly!');
+}
+
+
+//Sidebar//
+function show(){
+	document.getElementById('sidebar').classList.toggle('active');
+}
