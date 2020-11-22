@@ -31,6 +31,56 @@ ul.a {
 	font-size: .9rem;
 }
 
+#sidebar img{
+	width: 50%;
+}
+
+a.nav-links{
+	color: #f8e3ce;;
+    text-decoration: none;
+}
+
+#hours{
+	background-color: white;
+	padding: 3%;
+	padding-bottom: 4%;
+}
+/*********************Sidebar*****************/
+#sidebar{
+	position: absolute;
+	width: 260px;
+	height: 100%;
+	background: #5c0c0d;;
+	left: -300px;
+	transition: .4s;
+}
+
+#sidebar.active{
+	left: 0;
+}
+
+#sidebar ul li{
+	list-style: none;
+	color: #fff;
+	font-size: 20px;
+	padding: 20px 24px;
+}
+
+#sidebar .toggle-btn{
+	position: absolute;
+	top: 30px;
+	left: 320px;
+}
+
+.toggle-btn span{
+	width: 30px;
+	height: 3px;
+	background: #5c0c0d;;
+	display: block;
+	margin-top: 4px;
+}
+/*********************Sidebar*****************/
+
 /*********************API*********************/
 #details-wrapper{
 	background-color: #5c0c0d;
@@ -212,7 +262,17 @@ h5{
 		width: 50%;
 	}
 
-}
+	#sidebar .toogle-btn{
+		position: absolute;
+    	top: 30px;
+		left: 310px;
+	}
+
+	#sidebar{
+    position: absolute;
+    width: 200px;
+    height: 100%;
+	}
 /******************* END Media Query Min 418***********/
 
 
@@ -261,37 +321,3 @@ h5{
 	}
 }
 /******************* END Media Query Min 1800***********/
-
-#sidebar{
-	position: absolute;
-	width: 300px;
-	height: 100%;
-	background: #5c0c0d;;
-	left: -300px;
-	transition: .4s;
-}
-
-#sidebar.active{
-	left: 0;
-}
-
-#sidebar ul li{
-	list-style: none;
-	color: #fff;
-	font-size: 20px;
-	padding: 20px 24px;
-}
-
-#sidebar .toggle-btn{
-	position: absolute;
-	top: 30px;
-	left: 330px;
-}
-
-.toggle-btn span{
-	width: 45px;
-	height: 4px;
-	background: #5c0c0d;;
-	display: block;
-	margin-top: 4px;
-}
