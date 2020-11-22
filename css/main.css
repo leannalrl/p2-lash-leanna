@@ -20,6 +20,10 @@ h1{
 
 }
 
+h4{
+  color: #5c0c0d;
+}
+
 ul.a {
   list-style-type: circle;
 	padding: 1%;
@@ -129,7 +133,8 @@ li {
 }
 
 button {
-  background-color: #5c0c0d;
+  background-color: #401f10
+;
   color: #f8e3ce;
   font-size: 0.94rem;
   padding: 0.63em 0.94em;
@@ -140,8 +145,8 @@ button {
 }
 
 button:hover {
-  background-color: #f8e3ce;
-  color: #5c0c0d;
+  background-color: #5c0c0d;
+  color: #f8e3ce;
 }
 
 button:active {
@@ -175,13 +180,14 @@ footer{
   text-align: center;
   margin-top: 3%;
   color: #5c0c0d;
+  font-size: .7rem;
 }
 
-.col{
-	padding: 1%;
+.col {
+    padding: .4%;
 }
 
-footer img{
-	width: 7%;
+footer img {
+    width: 4%;
 }
 /*********************Footer*********************/
